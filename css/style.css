@@ -12,12 +12,12 @@ h1 {
 
 h2 {
     font-size: 32px;
-    text-shadow: 4px, 4px, 2px, #808080;
+    text-shadow: 4px 4px 2px #808080;
 }
 
 p {
     font-size: 24px;
-    padding: 15px;
+    padding-top: 15px;
 }
 
 img {
@@ -30,7 +30,7 @@ img {
 div {
     height: 150px;
     overflow: auto;
-    padding: 25px, 25px, 25px, 25px;
+    padding: 25px 25px 25px 25px;
 }
 
 #red {
@@ -48,12 +48,12 @@ div {
     text-align: right;
 }
 
-h2#yellow {
+#yellow h2 {
     color: #000000;
-    text-shadow: #c7e2c7;
+    text-shadow: 4px 4px 2px #c7e2c7;
 }
 
-p#yellow {
+#yellow p {
     color: #000000;
 }
 
@@ -64,7 +64,6 @@ p#yellow {
 
 footer p {
     text-align: center;
-    padding-bottom: 10px;
-    padding-right: 10px;
+    padding: 0px 10px 0px 10px;
 }
 
